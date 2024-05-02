@@ -1,0 +1,111 @@
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+
+nav {
+  background-color: #1e1e1e;
+}
+
+ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-around; /* Distribuye los elementos equitativamente */
+  padding: 0;
+}
+
+li {
+  margin: 0;
+  padding: 10px;
+}
+
+a {
+  text-decoration: none;
+  color: greenyellow;
+}
+
+li:hover{
+transition: 250ms;
+background-color:darkolivegreen
+}
+/*estilos de la pagina pagina principal html */
+h1{
+color: greenyellow;
+}
+.footer{
+color: greenyellow;
+}
+.famoso{
+color: greenyellow;
+}
+
+body {
+font-family: Arial, sans-serif;
+}
+
+.container {
+max-width: 1200px;
+margin: 0 auto;
+padding: 0 20px;
+text-align: center;
+}
+
+header {
+background-color: #1e1e1e;
+padding: 20px 0;
+}
+
+nav ul {
+list-style: none;
+}
+
+nav ul li {
+display: inline;
+margin-right: 20px;
+
+}
+
+nav ul li a {
+text-decoration: none;
+color: greenyellow;
+}
+
+.main-content {
+text-align: center;
+padding: 50px 0;
+}
+
+.btn {
+display: inline-block;
+padding: 10px 20px;
+background-color: #1e1e1e;
+color: yellowgreen;
+text-decoration: none;
+}
+
+footer {
+  background-color: #1e1e1e;
+  color:yellowgreen;
+  text-align: center;
+  padding: 10px 0;
+  position: fixed;
+  margin: fixed;
+  bottom: 0;
+  width: 100%;
+}
+video{
+  height: 200px;
+  width: 500px;
+  margin-left: 450px;
+}
+p{
+ color: yellowgreen;
+}
+h2 {
+  color: yellowgreen;
+}
+body{
+  background-color: black;
+}
